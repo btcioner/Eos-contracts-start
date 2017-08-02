@@ -2,9 +2,6 @@
 project( EOS )
 cmake_minimum_required( VERSION 2.8.12 )
 
-INCLUDE( VersionMacros )
-INCLUDE( SetupTargetMacros )
-
 list( APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/CMakeModules" )
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS "ON")
